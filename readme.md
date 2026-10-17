@@ -19,7 +19,7 @@ The charging current is set by the though-hole resistors R4 R8 R9 R10 R11.
 Formula is also available to google, but:
 Charging current (mA) = 1000 / Rprog (KΩ)
 For example, 10 KΩ resistor gives charging speed of 100mA. 
-Meanwhile 20Ω is 50mA
+Meanwhile 20KΩ is 50mA
 And, 1 KΩ would be the physical limit of the charging IC ( 1 Amp ), so don't go lower than 1 kohm! *(Or you will let out the magic smoke, and you can only do that **once**)*
 
 ### Default Jumper Configurations:
@@ -43,6 +43,6 @@ And, 1 KΩ would be the physical limit of the charging IC ( 1 Amp ), so don't go
 - **3x** JST 2-pin Battery Connectors (1.25mm, 1.5mm, 2.0mm pitch.) (Although, remember to only plug in one battery at a time! The plugs are connected together so differently charged batteries would try to even out without a limit on the current. Or cause a fire)
 - **1x** 2x5 (or 2x 1x5) Female Pin Header (2.54mm pitch)
 - **1x** 1x2 Female Pin Header (2.54mm pitch) – *Jumper storage*
-- **1x** 2.54mm Jumper/Shunt
-- **Up to 6x** THT Axial Resistors (Choose values based on desired mA, minimum 2 required for basic operation)
+- **1x** 2.54mm Jumper
+- **Up to 6x** THT Axial Resistors (Choose values based on desired mA, minimum 2 required for basic operation (NTC and one charging Speed)
 
