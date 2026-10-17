@@ -1,6 +1,9 @@
 # MCP73833 Li-Po/Li-Ion Charger (REV 1B)
 
 A highly flexible Li-Po and Li-Ion battery charger built around the Microchip **MCP73833** IC. 
+<img width="1188" height="972" alt="image" src="https://github.com/user-attachments/assets/b372d752-499c-401d-9506-0a31937f3168" />
+<img width="1054" height="836" alt="image" src="https://github.com/user-attachments/assets/00af7e2c-1e55-4624-9166-5cdbe79dbdd1" />
+
 
 This board features a selectable charging current via a 2x5 pin header, allowing you to quickly switch between preset currents using a standard 2.54mm jumper shunt. It also includes two configurable THT slots for any custom current limit under 1000mA.
 
